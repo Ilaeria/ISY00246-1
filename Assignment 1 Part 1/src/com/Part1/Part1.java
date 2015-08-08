@@ -27,7 +27,13 @@ public class Part1
             for (int i = 0; i < numbers.length;)
             {
                 String str = stdin.readLine();
-                if (str.contains(" "))
+
+                if (str.equals(""))
+                {
+                    i = numbers.length;
+                }
+
+                else if (str.contains(" "))
                 {
                     String[] splits = str.split(" ");
                     String split1 = splits[0];
@@ -36,12 +42,12 @@ public class Part1
                     {
                         int n1 = Integer.parseInt(split1);
                         numbers[i] = n1;
-                        arrayIndex++;
                         i++;
+                        arrayIndex = i;
                         int n2 = Integer.parseInt(split2);
                         numbers[i] = n2;
-                        arrayIndex++;
                         i++;
+                        arrayIndex = i;
                     }
                     catch (NumberFormatException e)
                     {
@@ -59,17 +65,21 @@ public class Part1
             System.out.println("An error occurred");
         }
 
+        if (arrayIndex == numbers.length)
+        {
+            System.out.println("You have entered the maximum number of numbers.");
+        }
+
         System.out.println("There were " + arrayIndex + " numbers entered.");
         System.out.println("The numbers entered were:");
-        for (int i = 0; i < numbers.length; i++)
+
+        for(int i : numbers)
         {
-            System.out.println(numbers[i]);
+            System.out.println(i);
         }
+
         Arrays.sort(numbers);
         System.out.println("Maximum = " + numbers[numbers.length - 1]);
         System.out.println("Minimum = " + numbers[0]);
-
-
-
     }
 }
