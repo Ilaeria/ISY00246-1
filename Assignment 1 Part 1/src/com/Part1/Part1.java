@@ -22,15 +22,22 @@ public class Part1
 
         try
         {
-            String str = stdin.readLine();
-            int n = Integer.parseInt(str);
-            numbers[0] = n;
-            System.out.println(numbers[0]);
+            for (int i = 0; i < 10; i++)
+            {
+                String str = stdin.readLine();
+                int n = Integer.parseInt(str);
+                numbers[i] = n;
+            }
         }
         catch (Exception e)
         {
             System.out.println("An error occurred");
-            System.out.println("Please try again");
+        }
+
+        System.out.println("The numbers entered were:");
+        for (int i = 0; i < 10; i++)
+        {
+            System.out.println(numbers[i]);
         }
 
 
