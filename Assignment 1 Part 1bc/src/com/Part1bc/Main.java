@@ -17,11 +17,31 @@ public class Main
         Confectionary snakes = new Confectionary(222,"Snakes lollies",22,"02/02/2020");
         Confectionary juicyfruit = new Confectionary(333,"Juicy Fruit gum",33,"03/03/2020");
 
-        System.out.println(whittakers.getID() + " " + whittakers.getDescription() + " " +
-                whittakers.number() + " " + whittakers.getExpiry());
-        System.out.println(snakes.getID() + " " + snakes.getDescription() + " " +
-                snakes.number() + " " + snakes.getExpiry());
-        System.out.println(juicyfruit.getID() + " " + juicyfruit.getDescription() + " " +
-                juicyfruit.number() + " " + juicyfruit.getExpiry());
+        System.out.println("Initial stock numbers:");
+        System.out.println("Stock ID: " + whittakers.getID() + ", Description: " +
+                whittakers.getDescription() + ", Number in stock: " + whittakers.number() +
+                ", Expiry date: " + whittakers.getExpiry());
+        System.out.println("Stock ID: " + snakes.getID() + ", Description: " +
+                snakes.getDescription() + ", Number in stock: " + snakes.number() +
+                ", Expiry date: " + snakes.getExpiry());
+        System.out.println("Stock ID: " + juicyfruit.getID() + ", Description: " +
+                juicyfruit.getDescription() + ", Number in stock: " + juicyfruit.number() +
+                ", Expiry date: " + juicyfruit.getExpiry());
+
+        whittakers.setNumber(444);
+        snakes.setNumber(555);
+        juicyfruit.setNumber(666);
+
+        System.out.println();
+        System.out.println("Updated stock numbers:");
+        System.out.println("Stock ID: " + whittakers.getID() + ", Description: " +
+                whittakers.getDescription() + ", Number in stock: " + whittakers.number() +
+                ", Expiry date: " + whittakers.getExpiry());
+        System.out.println("Stock ID: " + snakes.getID() + ", Description: " +
+                snakes.getDescription() + ", Number in stock: " + snakes.number() +
+                ", Expiry date: " + snakes.getExpiry());
+        System.out.println("Stock ID: " + juicyfruit.getID() + ", Description: " +
+                juicyfruit.getDescription() + ", Number in stock: " + juicyfruit.number() +
+                ", Expiry date: " + juicyfruit.getExpiry());
     }
 }

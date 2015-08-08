@@ -7,6 +7,7 @@ public class Confectionary implements Stock
     private int number = 0;
     private String expiry = "";
 
+    //Constructor
     public Confectionary(int id, String d, int n, String e)
     {
         stockID = id;
@@ -15,11 +16,13 @@ public class Confectionary implements Stock
         expiry = e;
     }
 
+    //Only number of stock can be set
     public void setNumber(int n)
     {
         number = n;
     }
 
+    //Getters
     public int number()
     {
         return number;
