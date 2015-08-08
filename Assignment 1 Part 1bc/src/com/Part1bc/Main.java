@@ -13,11 +13,19 @@ public class Main
 {
     public static void main(String[] args)
     {
-	    Confectionary whittakers = new Confectionary(111,"Whittaker's chocolate",11,"01/01/2020");
+	    //Create confectionary test objects
+        Confectionary whittakers = new Confectionary(111,"Whittaker's chocolate",11,"01/01/2020");
         Confectionary snakes = new Confectionary(222,"Snakes lollies",22,"02/02/2020");
         Confectionary juicyfruit = new Confectionary(333,"Juicy Fruit gum",33,"03/03/2020");
 
-        System.out.println("Initial stock numbers:");
+        //Create soft drink test objects
+        SoftDrink coke = new SoftDrink(444,"Coke cola",44,8);
+        SoftDrink redbull = new SoftDrink(555,"Red Bull energy",55,10);
+        SoftDrink orange = new SoftDrink(666,"Orange juice",66,12);
+
+
+
+        /*System.out.println("Initial stock numbers:");
         System.out.println("Stock ID: " + whittakers.getID() + ", Description: " +
                 whittakers.getDescription() + ", Number in stock: " + whittakers.number() +
                 ", Expiry date: " + whittakers.getExpiry());
@@ -42,6 +50,6 @@ public class Main
                 ", Expiry date: " + snakes.getExpiry());
         System.out.println("Stock ID: " + juicyfruit.getID() + ", Description: " +
                 juicyfruit.getDescription() + ", Number in stock: " + juicyfruit.number() +
-                ", Expiry date: " + juicyfruit.getExpiry());
+                ", Expiry date: " + juicyfruit.getExpiry());*/
     }
 }
