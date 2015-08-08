@@ -2,13 +2,14 @@
  * Created by: Jennifer Doherty
  * Unit: ISY00246 S2 2015
  * Date: 21 August 2015
+ * Assignment 1 Part 1a
  **/
 
-package com.Part1;
+package com.Part1a;
 
 import java.io.*;
 
-public class Part1
+public class Part1a
 {
 
     public static void main(String[] args)
