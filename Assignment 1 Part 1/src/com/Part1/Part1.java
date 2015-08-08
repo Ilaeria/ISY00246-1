@@ -7,6 +7,7 @@
 package com.Part1;
 
 import java.io.*;
+import java.util.*;
 
 public class Part1
 {
@@ -17,12 +18,13 @@ public class Part1
         BufferedReader stdin = new BufferedReader(isr);
 
         int [] numbers = new int[10];
+        int arrayIndex = 0;
 
         System.out.println("Enter two integers:");
 
         try
         {
-            for (int i = 0; i < 10;)
+            for (int i = 0; i < numbers.length;)
             {
                 String str = stdin.readLine();
                 if (str.contains(" "))
@@ -34,9 +36,11 @@ public class Part1
                     {
                         int n1 = Integer.parseInt(split1);
                         numbers[i] = n1;
+                        arrayIndex++;
                         i++;
                         int n2 = Integer.parseInt(split2);
                         numbers[i] = n2;
+                        arrayIndex++;
                         i++;
                     }
                     catch (NumberFormatException e)
@@ -55,11 +59,16 @@ public class Part1
             System.out.println("An error occurred");
         }
 
+        System.out.println("There were " + arrayIndex + " numbers entered.");
         System.out.println("The numbers entered were:");
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < numbers.length; i++)
         {
             System.out.println(numbers[i]);
         }
+        Arrays.sort(numbers);
+        System.out.println("Maximum = " + numbers[numbers.length - 1]);
+        System.out.println("Minimum = " + numbers[0]);
+
 
 
     }
