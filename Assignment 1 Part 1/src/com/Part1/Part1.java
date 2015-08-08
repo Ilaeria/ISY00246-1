@@ -30,6 +30,7 @@ public class Part1
         catch (Exception e)
         {
             System.out.println("An error occurred");
+            System.out.println("Please try again");
         }
 
 
