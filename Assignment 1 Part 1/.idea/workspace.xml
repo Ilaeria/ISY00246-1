@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ad7a544-0b49-4597-8c55-beacbb96ee06" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment 1 Part 1/com/Part1/Part1.class" afterPath="$PROJECT_DIR$/out/production/Assignment 1 Part 1/com/Part1/Part1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/Part1/Part1.java" afterPath="$PROJECT_DIR$/src/com/Part1/Part1.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -28,8 +29,8 @@
       <file leaf-file-name="Part1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/Part1/Part1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.9413681">
-              <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.723127">
+              <caret line="129" column="23" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -349,7 +350,13 @@
       <option name="project" value="LOCAL" />
       <updated>1439012874609</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Stopping for blank line">
+      <created>1439015504127</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1439015504127</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -386,7 +393,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Array sort working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array sort working" />
+    <MESSAGE value="Stopping for blank line" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stopping for blank line" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -411,8 +419,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Part1/Part1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.9413681">
-          <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.723127">
+          <caret line="129" column="23" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
           <folding />
         </state>
       </provider>
