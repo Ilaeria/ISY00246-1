@@ -3,12 +3,31 @@
         <title>Assignment 1 Part 2</title>
     </head>
     <body>
-    <!--<form action="http://spike.scu.edu.au/cgi-bin/echo_form" method="post">-->
-    <form action="http://spike.scu.edu.au/cgi-bin/Assignment1_2/Assignment1_2" method="post">
+        <!--<form action="http://spike.scu.edu.au/cgi-bin/echo_form" method="post">-->
+        <form action="http://spike.scu.edu.au/cgi-bin/Assignment1_2/Assignment1_2" method="post">
+            <h1>ISY00246 Assignment 1 Part 2, Session 2 2015</h1>
+            <h3>Use this form to search a contact database, add or remove records, and print all records.</h3>
+            <br/>
+            <b>Search for a contact using email: </b> <input type="text" name="email" value="name@example.com">
             <input type="submit" name="action" value ="Search">
+            <br/><br/>
+            <b>Add a record:</b>
+            <br/>
+            Name: <input type="text" name="name" value="Name">
+            <br/>
+            Email: <input type="text" name="email" value="name@example.com">
+            <br/>
+            Age: <input type="text" name="age" value="0" size="5">
+            <br/>
+            Private: <input type="radio" name="privacy" value="true"> Yes <input type="radio" name="privacy" value="false" checked> No
+            <br/>
             <input type="submit" name="action" value ="Add">
+            <br/><br/>
             <input type="submit" name="action" value ="Remove">
-            <input type="submit" name="action" value ="PrintAll">
+            <br/><br/>
+            <b>Print all contacts in the database: </b><input type="submit" name="action" value ="PrintAll">
+            <br/><br/>
+            <input type="reset" value="Clear All" />
         </form>
     </body>
 </html>
