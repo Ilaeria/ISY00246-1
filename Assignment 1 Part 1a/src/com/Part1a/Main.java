@@ -9,7 +9,7 @@ package com.Part1a;
 
 import java.io.*;
 
-public class Part1a
+public class Main
 {
 
     public static void main(String[] args)
