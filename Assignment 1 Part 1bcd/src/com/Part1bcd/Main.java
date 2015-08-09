@@ -3,6 +3,8 @@
  * Unit: ISY00246 S2 2015
  * Date: 21 August 2015
  * Assignment 1 Part 1a
+ * Implements the provided Stock interface with two different classes, manipulating objects of the
+ * classes in various ways.
  **/
 
 package com.Part1bcd;

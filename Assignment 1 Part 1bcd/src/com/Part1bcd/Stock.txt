@@ -1,6 +1,0 @@
-"confectionary","cadbury",1122,"Cadbury's chocolate",12,"01/02/2020"
-"confectionary","jubes",2233,"Jubes lollies",23,"02/03/2020"
-"softDrink","sprite",4455,"Sprite lemonade",45,54
-"confectionary","extra",3344,"Extra gum",34,"03/04/2020"
-"softDrink","mother",5566,"Mother energy",56,65
-"softDrink","apple",6677,"Apple juice",67,76

@@ -3,6 +3,7 @@
  * Unit: ISY00246 S2 2015
  * Date: 21 August 2015
  * Assignment 1 Part 1a
+ * Accepts keyboard input from the user, stores it in an array and returns the min/max values.
  **/
 
 package com.Part1a;
