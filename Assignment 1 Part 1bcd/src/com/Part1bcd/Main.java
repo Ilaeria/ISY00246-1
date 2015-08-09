@@ -7,6 +7,10 @@
 
 package com.Part1bcd;
 
+import java.io.*;
+import java.lang.reflect.Array;
+import java.util.*;
+
 public class Main
 {
     public static void main(String[] args)
@@ -36,6 +40,7 @@ public class Main
         System.out.println(softDrink1);
         System.out.println(softDrink2);
         System.out.println(softDrink3);
+        System.out.println();
 
         //Modify initial records
         whittakers.setNumber(777);
@@ -53,7 +58,6 @@ public class Main
         String softDrink5 = getFullSoftDrinkRecord(redbull);
         String softDrink6 = getFullSoftDrinkRecord(orange);
 
-        System.out.println();
         System.out.println("Modified records:");
         System.out.println(confectionary4);
         System.out.println(confectionary5);
@@ -61,15 +65,74 @@ public class Main
         System.out.println(softDrink4);
         System.out.println(softDrink5);
         System.out.println(softDrink6);
+        System.out.println();
 
         //Test getting basic stock info with polymorphic method
         String test1 = getBasicInfo(whittakers);
         String test2 = getBasicInfo(coke);
 
-        System.out.println();
         System.out.println("Basic info (demonstrating polymorphic method):");
         System.out.println(test1);
         System.out.println(test2);
+        System.out.println();
+
+        //Create arrays
+        ArrayList<String> fileContents = new ArrayList<>();
+        ArrayList<Confectionary> confectionaryArray = new ArrayList<>();
+        ArrayList<SoftDrink> softDrinkArray = new ArrayList<>();
+
+
+        try
+        {
+            File stock = new File(args[0]);
+            BufferedReader br = new BufferedReader(new FileReader(stock));
+            String line;
+            line = br.readLine();
+
+            while (line != null)
+            {
+                fileContents.add(line);
+                line = br.readLine();
+            }
+
+            for (String item : fileContents)
+            {
+                String[] attributes = item.split(",");
+                if (attributes[0].equals("confectionary"))
+                {
+                    confectionaryArray.add(new Confectionary(Integer.parseInt(attributes[2]),attributes[3],
+                            Integer.parseInt(attributes[4]),attributes[5]));
+                }
+                else if (attributes[0].equals("softDrink"))
+                {
+                    softDrinkArray.add(new SoftDrink(Integer.parseInt(attributes[2]),attributes[3],
+                            Integer.parseInt(attributes[4]),Integer.parseInt(attributes[5])));
+                }
+                else
+                {
+                    System.out.println("Adding to array failed");
+                }
+            }
+        }
+        catch (IOException e)
+        {
+            System.out.println("File read error");
+        }
+
+        //Print arrays
+        System.out.println("Contents of stock file:");
+        System.out.println("Confectionary:");
+        for (Confectionary c : confectionaryArray)
+        {
+            System.out.println(getFullConfectionaryRecord(c));
+        }
+
+        System.out.println();
+        System.out.println("Soft Drink:");
+        for (SoftDrink s : softDrinkArray)
+        {
+            System.out.println(getFullSoftDrinkRecord(s));
+        }
     }
 
     //Return full confectionary record
