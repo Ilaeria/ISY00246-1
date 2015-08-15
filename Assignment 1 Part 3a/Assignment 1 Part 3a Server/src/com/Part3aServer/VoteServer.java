@@ -25,13 +25,13 @@ public class VoteServer
         try
         {
             InetAddress myAddr = InetAddress.getLocalHost(); //Get the server address
-            DatagramSocket ds = new DatagramSocket(serverPort);
+            DatagramSocket ds = new DatagramSocket(serverPort); //Create the socket
 
             System.out.println("Voting server " + myAddr.getHostAddress() + " active on " + ds.getLocalPort() + ".");
             System.out.println("Type Ctrl-C to finish.");
 
-            String data = "";
-            while (!data.equals("EXIT"))
+            String vote = "";
+            while (!vote.equalsIgnoreCase("exit")) //Keep listening until told otherwise
             {
                 byte [] buff = new byte[100];
 
@@ -40,13 +40,17 @@ public class VoteServer
 
                 ds.receive(pack);
                 buff = pack.getData();
-                String vote = new String(buff);
-                System.out.println(vote);
+                InetAddress voteAddr = pack.getAddress();
+                vote = new String(buff,0,pack.getLength());
+                System.out.println("[" + voteAddr + "] " + "\""+ vote + "\"" + " vote received");
             }
 
+            System.out.println("Vote counting completed."); //Exit when told to
             ds.close();
         }
-        catch (Exception e) {
+        catch (Exception e)
+        {
+            System.out.println();
             System.out.println(e);
         }
     }

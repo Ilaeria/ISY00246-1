@@ -2,34 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9af09b80-16fd-4654-bd5f-04fe160a76a5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Client/out/production/Assignment 1 Part 3a Client/com/Part3aClient/VoteClient.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Server/out/production/Assignment 1 Part 3a Server/com/Part3aServer/VoteServer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Client/Assignment 1 Part 3a Client.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Server/Assignment 1 Part 3a Server.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Client/src/com/Part3aClient/VoteClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Server/src/com/Part3aServer/VoteServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Client/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Server/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Client/.idea/description.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Server/.idea/description.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Client/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Server/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Client/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Server/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Client/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Server/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Client/.idea/project-template.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Server/.idea/project-template.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Client/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Server/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Client/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Server/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Client/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Server/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 2/Assignment 1 Part 2.html" afterPath="$PROJECT_DIR$/../Assignment 1 Part 2/Assignment 1 Part 2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/Part1bcd/Main.java" afterPath="$PROJECT_DIR$/src/com/Part1bcd/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Server/out/production/Assignment 1 Part 3a Server/com/Part3aServer/VoteServer.class" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Server/out/production/Assignment 1 Part 3a Server/com/Part3aServer/VoteServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Client/src/com/Part3aClient/VoteClient.java" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Client/src/com/Part3aClient/VoteClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Server/src/com/Part3aServer/VoteServer.java" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Server/src/com/Part3aServer/VoteServer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 1a/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Assignment 1 Part 1a/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Client/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Client/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Server/.idea/workspace.xml" />
     </list>
     <ignored path="Assignment 1 Part 1bc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,7 +35,7 @@
           <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/Part1bcd/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.33296338">
+                <state vertical-scroll-proportion="-1.7613763">
                   <caret line="18" column="20" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="20" />
                   <folding />
                 </state>
@@ -671,7 +650,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Part1bcd/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33296338">
+        <state vertical-scroll-proportion="-1.7613763">
           <caret line="18" column="20" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="20" />
           <folding />
         </state>
