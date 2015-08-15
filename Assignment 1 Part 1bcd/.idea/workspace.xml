@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9af09b80-16fd-4654-bd5f-04fe160a76a5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Server/out/production/Assignment 1 Part 3a Server/com/Part3aServer/VoteServer.class" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Server/out/production/Assignment 1 Part 3a Server/com/Part3aServer/VoteServer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Client/src/com/Part3aClient/VoteClient.java" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Client/src/com/Part3aClient/VoteClient.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Server/src/com/Part3aServer/VoteServer.java" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Server/src/com/Part3aServer/VoteServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 1a/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Assignment 1 Part 1a/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Client/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Client/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Server/.idea/workspace.xml" />
     </list>
     <ignored path="Assignment 1 Part 1bc.iws" />
     <ignored path=".idea/workspace.xml" />

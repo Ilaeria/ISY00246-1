@@ -22,6 +22,7 @@ public class VoteClient
         //Create keyboard input reader
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader stdin = new BufferedReader(isr);
+
         String prompt = "Enter \"yes\" or \"no\": ";
 
         System.out.print(prompt);

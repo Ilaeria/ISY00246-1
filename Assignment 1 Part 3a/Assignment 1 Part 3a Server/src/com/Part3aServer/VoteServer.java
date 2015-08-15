@@ -22,6 +22,11 @@ public class VoteServer
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader stdin = new BufferedReader(isr);
 
+        //Create vote tallies
+        int yesTotal = 0;
+        int noTotal = 0;
+        String tallies = "So far Yes= " + yesTotal + " No= " + noTotal +".";
+
         try
         {
             InetAddress myAddr = InetAddress.getLocalHost(); //Get the server address
@@ -30,8 +35,8 @@ public class VoteServer
             System.out.println("Voting server " + myAddr.getHostAddress() + " active on " + ds.getLocalPort() + ".");
             System.out.println("Type Ctrl-C to finish.");
 
-            String vote = "";
-            while (!vote.equalsIgnoreCase("exit")) //Keep listening until told otherwise
+            String vote = " ";
+            while (!vote.equalsIgnoreCase("")) //Keep listening until told otherwise
             {
                 byte [] buff = new byte[100];
 
@@ -42,7 +47,22 @@ public class VoteServer
                 buff = pack.getData();
                 InetAddress voteAddr = pack.getAddress();
                 vote = new String(buff,0,pack.getLength());
-                System.out.println("[" + voteAddr + "] " + "\""+ vote + "\"" + " vote received");
+                if (vote.equalsIgnoreCase("yes"))
+                {
+                    yesTotal++;
+                    System.out.println("[" + voteAddr + "] " + "\"Yes\" vote received");
+                    System.out.println("So far Yes= " + yesTotal + " No= " + noTotal +".");
+                }
+                else if (vote.equalsIgnoreCase("no"))
+                {
+                    noTotal++;
+                    System.out.println("[" + voteAddr + "] " + "\"No\" vote received");
+                    System.out.println("So far Yes= " + yesTotal + " No= " + noTotal +".");
+                }
+                else
+                {
+                    System.out.println("**Error ** Bad vote string received");
+                }
             }
 
             System.out.println("Vote counting completed."); //Exit when told to
