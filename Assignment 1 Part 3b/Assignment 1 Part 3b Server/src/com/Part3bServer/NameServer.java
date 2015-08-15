@@ -41,10 +41,8 @@ public class NameServer
                     }
                     sock.close();
                 }
-                catch (Exception e)
+                catch (IOException e)
                 {
-                    System.out.println();
-                    System.out.println(e);
                 }
             }
         }

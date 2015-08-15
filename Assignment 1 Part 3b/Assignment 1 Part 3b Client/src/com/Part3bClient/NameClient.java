@@ -26,14 +26,49 @@ public class NameClient
             BufferedReader inStream = new BufferedReader(new InputStreamReader(sock.getInputStream()));
             BufferedReader inConsole = new BufferedReader(new InputStreamReader(System.in));
 
-            String line = inConsole.readLine();
-            while (!line.equals(""))
+            System.out.println("Name Server Menu");
+            System.out.println();
+            System.out.println("1. Add a name");
+            System.out.println("2. Remove a name");
+            System.out.println("3. List all names");
+            System.out.println("4. Check if a name recorded");
+            System.out.println("5. Exit");
+            System.out.println();
+
+            Boolean menuSelected = false;
+            while (menuSelected == false)
             {
-                outStream.println(line);
-                outStream.flush();
-                String reply = inStream.readLine();
-                System.out.println("Received: "+ reply);
-                line = inConsole.readLine();
+                System.out.println("Enter selection [1-5]:");
+                String menu = inConsole.readLine();
+                if (menu.equals("1"))
+                {
+                    System.out.println("Menu selection: " + menu);
+                    menuSelected = true;
+                }
+                else if (menu.equals("2"))
+                {
+                    System.out.println("Menu selection: " + menu);
+                    menuSelected = true;
+                }
+                else if (menu.equals("2"))
+                {
+                    System.out.println("Menu selection: " + menu);
+                    menuSelected = true;
+                }
+                else if (menu.equals("2"))
+                {
+                    System.out.println("Menu selection: " + menu);
+                    menuSelected = true;
+                }
+                else if (menu.equals("5"))
+                {
+                    System.out.println("Exiting Name Server");
+                    menuSelected = true;
+                }
+                else
+                {
+                    menuSelected = false;
+                }
             }
             outStream.println();
             outStream.flush();
