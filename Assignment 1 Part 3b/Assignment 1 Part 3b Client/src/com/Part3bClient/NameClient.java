@@ -29,38 +29,53 @@ public class NameClient
             BufferedReader inConsole = new BufferedReader(new InputStreamReader(System.in));
 
             Boolean menuSelected = false;
-            while (menuSelected == false)
+            outStream.flush();
+            while (!menuSelected)
             {
                 DisplayMenu();
                 String menu = inConsole.readLine(); //Hold menu selection
-                String reply = ""; //Hold server reply
+                String reply; //Hold server reply
 
                 if (menu.equals("1"))
                 {
                     outStream.println(menu);
-                    reply = inStream.readLine();
                     System.out.println("Menu selection: " + menu);
+                    System.out.println("Please enter the name you wish to add: ");
+                    String addName = inConsole.readLine();
+                    outStream.println(addName);
+                    reply = inStream.readLine();
                     System.out.println("Reply from server: " + reply);
+
                 }
                 else if (menu.equals("2"))
                 {
                     outStream.println(menu);
-                    reply = inStream.readLine();
                     System.out.println("Menu selection: " + menu);
+                    System.out.println("Please enter the name you wish to remove: ");
+                    String removeName = inConsole.readLine();
+                    outStream.println(removeName);
+                    reply = inStream.readLine();
                     System.out.println("Reply from server: " + reply);
                 }
                 else if (menu.equals("3"))
                 {
                     outStream.println(menu);
-                    reply = inStream.readLine();
                     System.out.println("Menu selection: " + menu);
-                    System.out.println("Reply from server: " + reply);
+                    reply = inStream.readLine();
+                    while (!reply.equals(""))
+                    {
+                        System.out.println(reply);
+                        reply = inStream.readLine();
+                    }
                 }
                 else if (menu.equals("4"))
                 {
                     outStream.println(menu);
-                    reply = inStream.readLine();
                     System.out.println("Menu selection: " + menu);
+                    System.out.println("Please enter the name you wish to check: ");
+                    String checkName = inConsole.readLine();
+                    outStream.println(checkName);
+                    reply = inStream.readLine();
                     System.out.println("Reply from server: " + reply);
                 }
                 else if (menu.equals("5"))
@@ -68,7 +83,6 @@ public class NameClient
                     outStream.println(menu);
                     reply = inStream.readLine();
                     System.out.println("Menu selection: " + menu);
-                    System.out.println("Reply from server: " + reply);
                     System.out.println("Name Client exiting.");
                     menuSelected = true;
                 }

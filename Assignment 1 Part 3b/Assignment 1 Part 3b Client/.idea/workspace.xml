@@ -3,13 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="5a8ff0d6-110c-439c-bb5c-950a49b52c04" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment 1 Part 3b Client/com/Part3bClient/NameClient.class" afterPath="$PROJECT_DIR$/out/production/Assignment 1 Part 3b Client/com/Part3bClient/NameClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3b Server/out/production/Assignment 1 Part 3b Server/com/Part3bServer/NameServer.class" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3b Server/out/production/Assignment 1 Part 3b Server/com/Part3bServer/NameServer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/Part3bClient/NameClient.java" afterPath="$PROJECT_DIR$/src/com/Part3bClient/NameClient.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3b Server/src/com/Part3bServer/NameServer.java" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3b Server/src/com/Part3bServer/NameServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Assignment 1 Part 3a/Assignment 1 Part 3a Client/src/com/Part3aClient/VoteClient.java" afterPath="$PROJECT_DIR$/../../Assignment 1 Part 3a/Assignment 1 Part 3a Client/src/com/Part3aClient/VoteClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Assignment 1 Part 3a/Assignment 1 Part 3a Server/src/com/Part3aServer/VoteServer.java" afterPath="$PROJECT_DIR$/../../Assignment 1 Part 3a/Assignment 1 Part 3a Server/src/com/Part3aServer/VoteServer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Assignment 1 Part 1a/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Assignment 1 Part 1a/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Assignment 1 Part 1bcd/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Assignment 1 Part 1bcd/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Assignment 1 Part 3a/Assignment 1 Part 3a Client/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Assignment 1 Part 3a/Assignment 1 Part 3a Client/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Assignment 1 Part 3a/Assignment 1 Part 3a Server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Assignment 1 Part 3a/Assignment 1 Part 3a Server/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3b Server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3b Server/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="G:\Libraries\Documents\University 2014-\2015\Session 2\ISY00246\Projects\Assignment 1\Assignment 1 Part 3b\Assignment 1 Part 3b Server\Name db.txt" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3b Server/NameDB.txt" />
     </list>
     <ignored path="Assignment 1 Part 3b Client.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,8 +38,8 @@
       <file leaf-file-name="NameClient.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/Part3bClient/NameClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.13843648">
-              <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.80618894">
+              <caret line="78" column="70" selection-start-line="78" selection-start-column="70" selection-end-line="78" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -87,9 +91,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -357,13 +361,11 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32985386" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32985386" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -371,13 +373,15 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -402,8 +406,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Part3bClient/NameClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.13843648">
-          <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Part3bClient/NameClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.80618894">
+          <caret line="78" column="70" selection-start-line="78" selection-start-column="70" selection-end-line="78" selection-end-column="70" />
           <folding />
         </state>
       </provider>

@@ -9,7 +9,6 @@
 package com.Part3aServer;
 
 import java.net.*;
-import java.io.*;
 
 public class VoteServer
 {
@@ -18,14 +17,9 @@ public class VoteServer
 
     public static void main(String[] args)
     {
-        //Create keyboard input reader
-        InputStreamReader isr = new InputStreamReader(System.in);
-        BufferedReader stdin = new BufferedReader(isr);
-
         //Create vote tallies
         int yesTotal = 0;
         int noTotal = 0;
-        String tallies = "So far Yes= " + yesTotal + " No= " + noTotal +".";
 
         try
         {
