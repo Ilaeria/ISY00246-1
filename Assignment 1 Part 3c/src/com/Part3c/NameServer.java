@@ -1,12 +1,12 @@
 /**
  * Created by: Jennifer Doherty
  * Unit: ISY00246 S2 2015
- * Date: 16 August 2015
- * Assignment 1 Part 3b
- * Receives name db queries from the client and manipulates the name db.
+ * Date: 21 August 2015
+ * Assignment 1 Part 3c
+ * Receives name db queries from the client and manipulates the name db. Can accept multiple connections.
  **/
 
-package com.Part3bServer;
+package com.Part3c;
 
 import java.io.*;
 import java.net.*;

@@ -2,8 +2,8 @@
  * Created by: Jennifer Doherty
  * Unit: ISY00246 S2 2015
  * Date: 21 August 2015
- * Assignment 1 Part 3a
- * Sends vote info to the server program.
+ * Assignment 1 Part 3b
+ * Queries and sends update requests to the server program for the name db.
  **/
 
 package com.Part3bClient;

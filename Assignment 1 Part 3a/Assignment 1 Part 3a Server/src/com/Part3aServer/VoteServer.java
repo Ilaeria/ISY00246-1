@@ -1,7 +1,7 @@
 /**
  * Created by: Jennifer Doherty
  * Unit: ISY00246 S2 2015
- * Date: 21 August 2015
+ * Date: 16 August 2015
  * Assignment 1 Part 3a VoteServer
  * Accepts and tallies votes from the client program.
  **/
