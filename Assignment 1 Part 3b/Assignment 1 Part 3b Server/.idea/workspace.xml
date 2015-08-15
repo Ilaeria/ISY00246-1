@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f6bce0e-6c78-416f-b2b2-fb3637e88be9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3b Client/out/production/Assignment 1 Part 3b Client/com/Part3bClient/NameClient.class" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3b Client/out/production/Assignment 1 Part 3b Client/com/Part3bClient/NameClient.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3b Client/src/com/Part3bClient/NameClient.java" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3b Client/src/com/Part3bClient/NameClient.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/Part3bServer/NameServer.java" afterPath="$PROJECT_DIR$/src/com/Part3bServer/NameServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Assignment 1 Part 3a/Assignment 1 Part 3a Client/src/com/Part3aClient/VoteClient.java" afterPath="$PROJECT_DIR$/../../Assignment 1 Part 3a/Assignment 1 Part 3a Client/src/com/Part3aClient/VoteClient.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Assignment 1 Part 1a/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Assignment 1 Part 1a/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Assignment 1 Part 1bcd/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Assignment 1 Part 1bcd/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3b Client/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3b Client/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Assignment 1 Part 3b Server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,18 +30,36 @@
     <favorites_list name="Assignment 1 Part 3b Server" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="NameServer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/Part3bServer/NameServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47394136">
-              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.716">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="NameServer.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/com/Part3bServer/NameServer.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.6123778">
+                  <caret line="67" column="47" selection-start-line="67" selection-start-column="47" selection-end-line="67" selection-end-column="47" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="Name db.txt" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Name db.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.19381107">
+                  <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -46,6 +69,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Name db.txt" />
         <option value="$PROJECT_DIR$/src/com/Part3bServer/NameServer.java" />
       </list>
     </option>
@@ -410,10 +434,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Name db.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19381107">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Part3bServer/NameServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47394136">
-          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.6123778">
+          <caret line="67" column="47" selection-start-line="67" selection-start-column="47" selection-end-line="67" selection-end-column="47" />
           <folding />
         </state>
       </provider>

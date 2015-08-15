@@ -13,7 +13,6 @@ import java.net.*;
 
 public class NameServer
 {
-    private static final int CLIENTPORT = 2014;
     private static final int SERVERPORT = 2015;
 
     public static void main(String[] args)
@@ -32,13 +31,49 @@ public class NameServer
                     PrintWriter outStream = new PrintWriter(sock.getOutputStream());
                     BufferedReader inStream = new BufferedReader(new InputStreamReader(sock.getInputStream()));
 
-                    String line = inStream.readLine();
-                    while (!line.equals(""))
+                    Boolean menuSelected = false;
+                    while (menuSelected == false)
                     {
-                        outStream.println(line);
-                        outStream.flush();
-                        line = inStream.readLine();
+                        String menu = inStream.readLine();
+
+                        if (menu.equals("1"))
+                        {
+                            outStream.println(menu);
+                            System.out.println("Menu selection: " + menu);
+                            outStream.flush();
+                        }
+                        else if (menu.equals("2"))
+                        {
+                            outStream.println(menu);
+                            System.out.println("Menu selection: " + menu);
+                            outStream.flush();
+                        }
+                        else if (menu.equals("3"))
+                        {
+                            outStream.println(menu);
+                            System.out.println("Menu selection: " + menu);
+                            outStream.flush();
+                        }
+                        else if (menu.equals("4"))
+                        {
+                            outStream.println(menu);
+                            System.out.println("Menu selection: " + menu);
+                            outStream.flush();
+                        }
+                        else if (menu.equals("5"))
+                        {
+                            outStream.println(menu);
+                            System.out.println("Menu selection: " + menu);
+                            System.out.println("Socket disconnected.");
+                            menuSelected = true;
+                            outStream.flush();
+                        }
+                        else
+                        {
+                            menuSelected = false;
+                        }
                     }
+                    System.out.println("Name Server exiting.");
                     sock.close();
                 }
                 catch (IOException e)

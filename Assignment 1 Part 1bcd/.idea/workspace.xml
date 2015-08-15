@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9af09b80-16fd-4654-bd5f-04fe160a76a5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3b/Assignment 1 Part 3b Client/out/production/Assignment 1 Part 3b Client/com/Part3bClient/NameClient.class" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3b/Assignment 1 Part 3b Client/out/production/Assignment 1 Part 3b Client/com/Part3bClient/NameClient.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3b/Assignment 1 Part 3b Client/src/com/Part3bClient/NameClient.java" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3b/Assignment 1 Part 3b Client/src/com/Part3bClient/NameClient.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3b/Assignment 1 Part 3b Server/src/com/Part3bServer/NameServer.java" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3b/Assignment 1 Part 3b Server/src/com/Part3bServer/NameServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Client/src/com/Part3aClient/VoteClient.java" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Client/src/com/Part3aClient/VoteClient.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 1a/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Assignment 1 Part 1a/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3b/Assignment 1 Part 3b Client/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3b/Assignment 1 Part 3b Client/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3b/Assignment 1 Part 3b Server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3b/Assignment 1 Part 3b Server/.idea/workspace.xml" />
     </list>
     <ignored path="Assignment 1 Part 1bc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +36,8 @@
           <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/Part1bcd/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-1.7613763">
-                  <caret line="18" column="20" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="20" />
+                <state vertical-scroll-proportion="1.264151">
+                  <caret line="142" column="53" selection-start-line="142" selection-start-column="53" selection-end-line="142" selection-end-column="53" />
                   <folding />
                 </state>
               </provider>
@@ -52,10 +57,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Stock.txt" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Stock.txt" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Stock.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
+                <state vertical-scroll-proportion="0.09139785">
                   <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
                   <folding />
                 </state>
@@ -72,10 +77,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Stock.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Stock.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/Part1bcd/Stock.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.1827957">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
                   <folding />
                 </state>
@@ -620,14 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stock.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Part1bcd/Confectionary.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -638,16 +635,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Part1bcd/Stock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1827957">
+        <state vertical-scroll-proportion="0.0">
           <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stock.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09139785">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Part1bcd/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7613763">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="20" />
+        <state vertical-scroll-proportion="1.264151">
+          <caret line="142" column="53" selection-start-line="142" selection-start-column="53" selection-end-line="142" selection-end-column="53" />
           <folding />
         </state>
       </provider>

@@ -29,7 +29,7 @@ public class VoteClient
 
         try
         {
-            InetAddress addr = InetAddress.getByName(args[0]);
+            InetAddress addr = InetAddress.getByName(args[0]); //Get the server details from the command line argument
             String vote = stdin.readLine();
 
             while (!vote.equalsIgnoreCase("yes") && (!vote.equalsIgnoreCase("no"))) //Only accept valid votes
