@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ad7a544-0b49-4597-8c55-beacbb96ee06" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 1bcd/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Assignment 1 Part 1bcd/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3b/Assignment 1 Part 3b Server/src/com/Part3bServer/NameServer.java" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3b/Assignment 1 Part 3b Server/src/com/Part3bServer/NameServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3b/Assignment 1 Part 3b Client/src/com/Part3bClient/NameClient.java" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3b/Assignment 1 Part 3b Client/src/com/Part3bClient/NameClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3b/Assignment 1 Part 3b Server/src/com/Part3bServer/NameServer.java" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3b/Assignment 1 Part 3b Server/src/com/Part3bServer/NameServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Client/src/com/Part3aClient/VoteClient.java" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Client/src/com/Part3aClient/VoteClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Server/src/com/Part3aServer/VoteServer.java" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Server/src/com/Part3aServer/VoteServer.java" />
     </list>
     <ignored path="Assignment 1 Part 1.iws" />
     <ignored path=".idea/workspace.xml" />

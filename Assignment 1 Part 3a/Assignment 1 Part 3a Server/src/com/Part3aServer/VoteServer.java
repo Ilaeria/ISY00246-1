@@ -13,11 +13,11 @@ import java.io.*;
 
 public class VoteServer
 {
+    //Static port number
+    private static final int SERVERPORT = 2015;
+
     public static void main(String[] args)
     {
-        //Static port number
-        final int serverPort = 2015;
-
         //Create keyboard input reader
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader stdin = new BufferedReader(isr);
@@ -30,7 +30,7 @@ public class VoteServer
         try
         {
             InetAddress myAddr = InetAddress.getLocalHost(); //Get the server address
-            DatagramSocket ds = new DatagramSocket(serverPort); //Create the socket
+            DatagramSocket ds = new DatagramSocket(SERVERPORT); //Create the socket
 
             System.out.println("Voting server " + myAddr.getHostAddress() + " active on " + ds.getLocalPort() + ".");
             System.out.println("Type Ctrl-C to finish.");

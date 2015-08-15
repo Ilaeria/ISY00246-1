@@ -13,12 +13,12 @@ import java.net.*;
 
 public class VoteClient
 {
+    //Static port numbers
+    private static final int CLIENTPORT = 2014;
+    private static final int SERVERPORT = 2015;
+
     public static void main(String[] args)
     {
-        //Static port numbers
-        final int clientPort = 2014;
-        final int serverPort = 2015;
-
         //Create keyboard input reader
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader stdin = new BufferedReader(isr);
@@ -38,9 +38,9 @@ public class VoteClient
                 System.out.print(prompt);
                 vote = stdin.readLine();
             }
-            DatagramSocket ds = new DatagramSocket(clientPort);
+            DatagramSocket ds = new DatagramSocket(CLIENTPORT);
             byte[] buf = vote.getBytes();
-            DatagramPacket pack = new DatagramPacket(buf, buf.length, addr, serverPort);
+            DatagramPacket pack = new DatagramPacket(buf, buf.length, addr, SERVERPORT);
             ds.send(pack);
             System.out.println("Vote " + "\"" + vote + "\"" + " sent to " + addr);
             ds.close();

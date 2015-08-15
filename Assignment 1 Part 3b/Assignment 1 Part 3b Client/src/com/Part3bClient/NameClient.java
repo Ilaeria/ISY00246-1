@@ -13,8 +13,37 @@ import java.net.*;
 
 public class NameClient
 {
+    //Static port numbers
+    private static final int CLIENTPORT = 2014;
+    private static final int SERVERPORT = 2015;
+
     public static void main(String[] args)
     {
-	// write your code here
+        try {
+            InetAddress addr = InetAddress.getByName(args[0]);
+            Socket sock = new Socket(addr,SERVERPORT);
+            PrintStream outStream = new PrintStream(sock.getOutputStream());
+            BufferedReader inStream = new BufferedReader(new InputStreamReader(sock.getInputStream()));
+            BufferedReader inConsole = new BufferedReader(new InputStreamReader(System.in));
+
+            String line = inConsole.readLine();
+            while (!line.equals(""))
+            {
+                outStream.println(line);
+                outStream.flush();
+                String reply = inStream.readLine();
+                System.out.println("Received: "+ reply);
+                line = inConsole.readLine();
+            }
+            outStream.println();
+            outStream.flush();
+
+            sock.close();
+        }
+        catch (Exception e)
+        {
+            System.out.println();
+            System.out.println(e);
+        }
     }
 }
