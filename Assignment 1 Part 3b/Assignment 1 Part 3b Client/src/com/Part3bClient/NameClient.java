@@ -14,7 +14,7 @@ import java.net.*;
 public class NameClient
 {
     //Static port numbers
-    private static final int CLIENTPORT = 2014;
+    //private static final int CLIENTPORT = 2014;
     private static final int SERVERPORT = 2015;
 
     public static void main(String[] args)
@@ -22,8 +22,9 @@ public class NameClient
         try
         {
             InetAddress addr = InetAddress.getByName(args[0]); //Get the server details from the command line argument
-            InetAddress myAddr = InetAddress.getLocalHost(); //Get the local address
-            Socket sock = new Socket(addr,SERVERPORT,myAddr,CLIENTPORT);
+            //InetAddress myAddr = InetAddress.getLocalHost(); //Get the local address
+           //Socket sock = new Socket(addr,SERVERPORT,myAddr,CLIENTPORT);
+            Socket sock = new Socket(addr,SERVERPORT);
             PrintStream outStream = new PrintStream(sock.getOutputStream());
             BufferedReader inStream = new BufferedReader(new InputStreamReader(sock.getInputStream()));
             BufferedReader inConsole = new BufferedReader(new InputStreamReader(System.in));
@@ -39,13 +40,15 @@ public class NameClient
                 if (menu.equals("1"))
                 {
                     outStream.println(menu);
+                    outStream.flush();
                     System.out.println("Menu selection: " + menu);
                     System.out.println("Please enter the name you wish to add: ");
                     String addName = inConsole.readLine();
                     outStream.println(addName);
+                    System.out.println("Name " + addName + " sent");
+                    outStream.flush();
                     reply = inStream.readLine();
                     System.out.println("Reply from server: " + reply);
-
                 }
                 else if (menu.equals("2"))
                 {
@@ -56,6 +59,7 @@ public class NameClient
                     outStream.println(removeName);
                     reply = inStream.readLine();
                     System.out.println("Reply from server: " + reply);
+                    outStream.flush();
                 }
                 else if (menu.equals("3"))
                 {
@@ -67,6 +71,7 @@ public class NameClient
                         System.out.println(reply);
                         reply = inStream.readLine();
                     }
+                    outStream.flush();
                 }
                 else if (menu.equals("4"))
                 {
@@ -77,6 +82,7 @@ public class NameClient
                     outStream.println(checkName);
                     reply = inStream.readLine();
                     System.out.println("Reply from server: " + reply);
+                    outStream.flush();
                 }
                 else if (menu.equals("5"))
                 {
@@ -85,6 +91,7 @@ public class NameClient
                     System.out.println("Menu selection: " + menu);
                     System.out.println("Name Client exiting.");
                     menuSelected = true;
+                    outStream.flush();
                 }
                 else
                 {

@@ -2,24 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9af09b80-16fd-4654-bd5f-04fe160a76a5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3c/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3c/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3c/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3c/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 2/Assignment 1 Part 2.html" afterPath="$PROJECT_DIR$/../Assignment 1 Part 2/Assignment 1 Part 2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 1a/src/com/Part1a/Main.java" afterPath="$PROJECT_DIR$/../Assignment 1 Part 1a/src/com/Part1a/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/Part1bcd/Main.java" afterPath="$PROJECT_DIR$/src/com/Part1bcd/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3b/Assignment 1 Part 3b Client/out/production/Assignment 1 Part 3b Client/com/Part3bClient/NameClient.class" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3b/Assignment 1 Part 3b Client/out/production/Assignment 1 Part 3b Client/com/Part3bClient/NameClient.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3b/Assignment 1 Part 3b Client/src/com/Part3bClient/NameClient.java" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3b/Assignment 1 Part 3b Client/src/com/Part3bClient/NameClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3b/Assignment 1 Part 3b Server/NameDB.txt" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3b/Assignment 1 Part 3b Server/NameDB.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3b/Assignment 1 Part 3b Server/src/com/Part3bServer/NameServer.java" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3b/Assignment 1 Part 3b Server/src/com/Part3bServer/NameServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Client/src/com/Part3aClient/VoteClient.java" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Client/src/com/Part3aClient/VoteClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Server/src/com/Part3aServer/VoteServer.java" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Server/src/com/Part3aServer/VoteServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3c/NameDB.txt" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3c/NameDB.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3c/src/com/Part3c/NameServer.java" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3c/src/com/Part3c/NameServer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 1a/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Assignment 1 Part 1a/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Client/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Client/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3a/Assignment 1 Part 3a Server/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3b/Assignment 1 Part 3b Client/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3b/Assignment 1 Part 3b Client/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3b/Assignment 1 Part 3b Server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3b/Assignment 1 Part 3b Server/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment 1 Part 3c/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Assignment 1 Part 3c/.idea/workspace.xml" />
     </list>
     <ignored path="Assignment 1 Part 1bc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,11 +33,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Part1bcd/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.05483871">
+            <state vertical-scroll-proportion="0.0">
               <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Confectionary.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/Part1bcd/Confectionary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4204301">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -412,7 +414,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1696" height="1066" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -597,14 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Part1bcd/Confectionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4204301">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Part1bcd/Stock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21935484">
@@ -614,8 +608,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Part1bcd/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05483871">
+        <state vertical-scroll-proportion="0.0">
           <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Part1bcd/Confectionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4204301">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
