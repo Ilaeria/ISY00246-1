@@ -38,6 +38,8 @@ public class VoteClient
                 System.out.print(prompt);
                 vote = stdin.readLine();
             }
+
+            //Send vote to server
             DatagramSocket ds = new DatagramSocket(CLIENTPORT);
             byte[] buf = vote.getBytes();
             DatagramPacket pack = new DatagramPacket(buf, buf.length, addr, SERVERPORT);

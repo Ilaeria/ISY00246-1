@@ -14,7 +14,6 @@ import java.net.*;
 public class NameClient
 {
     //Static port numbers
-    //private static final int CLIENTPORT = 2014;
     private static final int SERVERPORT = 2015;
 
     public static void main(String[] args)
@@ -22,22 +21,20 @@ public class NameClient
         try
         {
             InetAddress addr = InetAddress.getByName(args[0]); //Get the server details from the command line argument
-            //InetAddress myAddr = InetAddress.getLocalHost(); //Get the local address
-           //Socket sock = new Socket(addr,SERVERPORT,myAddr,CLIENTPORT);
             Socket sock = new Socket(addr,SERVERPORT);
             PrintStream outStream = new PrintStream(sock.getOutputStream());
             BufferedReader inStream = new BufferedReader(new InputStreamReader(sock.getInputStream()));
             BufferedReader inConsole = new BufferedReader(new InputStreamReader(System.in));
 
-            Boolean menuSelected = false;
+            Boolean menuSelected = true;
             outStream.flush();
-            while (!menuSelected)
+            while (menuSelected) //Keep displaying menu until told to exit
             {
                 DisplayMenu();
                 String menu = inConsole.readLine(); //Hold menu selection
                 String reply; //Hold server reply
 
-                if (menu.equals("1"))
+                if (menu.equals("1")) //Add a name
                 {
                     outStream.println(menu);
                     outStream.flush();
@@ -50,7 +47,7 @@ public class NameClient
                     reply = inStream.readLine();
                     System.out.println("Reply from server: " + reply);
                 }
-                else if (menu.equals("2"))
+                else if (menu.equals("2")) //Remove a name
                 {
                     outStream.println(menu);
                     System.out.println("Menu selection: " + menu);
@@ -61,7 +58,7 @@ public class NameClient
                     System.out.println("Reply from server: " + reply);
                     outStream.flush();
                 }
-                else if (menu.equals("3"))
+                else if (menu.equals("3")) //List all names
                 {
                     outStream.println(menu);
                     System.out.println("Menu selection: " + menu);
@@ -73,7 +70,7 @@ public class NameClient
                     }
                     outStream.flush();
                 }
-                else if (menu.equals("4"))
+                else if (menu.equals("4")) //Check if a name recorded
                 {
                     outStream.println(menu);
                     System.out.println("Menu selection: " + menu);
@@ -84,18 +81,17 @@ public class NameClient
                     System.out.println("Reply from server: " + reply);
                     outStream.flush();
                 }
-                else if (menu.equals("5"))
+                else if (menu.equals("5")) //Exit
                 {
                     outStream.println(menu);
-                    reply = inStream.readLine();
                     System.out.println("Menu selection: " + menu);
                     System.out.println("Name Client exiting.");
-                    menuSelected = true;
+                    menuSelected = false;
                     outStream.flush();
                 }
                 else
                 {
-                    menuSelected = false;
+                    menuSelected = true;
                 }
             }
             outStream.println();
@@ -109,7 +105,7 @@ public class NameClient
             System.out.println(e);
         }
     }
-    public static void DisplayMenu()
+    public static void DisplayMenu() //Display menu items
     {
         System.out.println();
         System.out.println("Name Server Menu");

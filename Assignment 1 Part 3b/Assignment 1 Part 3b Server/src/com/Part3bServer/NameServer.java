@@ -36,7 +36,7 @@ public class NameServer
                     Boolean menuSelected = false;
                     outStream.flush();
 
-                    while (!menuSelected)
+                    while (!menuSelected) //Keep listening until told to stop
                     {
                         String menu = inStream.readLine();
 

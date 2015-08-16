@@ -29,14 +29,16 @@ public class VoteServer
             System.out.println("Voting server " + myAddr.getHostAddress() + " active on " + ds.getLocalPort() + ".");
             System.out.println("Type Ctrl-C to finish.");
 
-            String vote = " ";
-            while (!vote.equalsIgnoreCase("")) //Keep listening until told otherwise
+            String vote;
+            Boolean listen = true;
+            while (listen) //Keep listening until told otherwise
             {
                 byte [] buff = new byte[100];
 
                 DatagramPacket pack =
                         new DatagramPacket(buff, buff.length);
 
+                //Receive vote and update tallies
                 ds.receive(pack);
                 buff = pack.getData();
                 InetAddress voteAddr = pack.getAddress();

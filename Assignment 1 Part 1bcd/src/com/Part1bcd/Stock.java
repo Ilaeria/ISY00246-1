@@ -1,3 +1,7 @@
+/**
+ * Interface provided with assignment guidelines.
+ **/
+
 package com.Part1bcd;
 
 public interface Stock
