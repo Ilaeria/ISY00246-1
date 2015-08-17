@@ -246,6 +246,7 @@ public class NameServer
                 }
                 catch (IOException e)
                 {
+                    System.out.println(e);
                 }
             }
         }
