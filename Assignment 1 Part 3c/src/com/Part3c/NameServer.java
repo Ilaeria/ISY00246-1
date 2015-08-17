@@ -12,7 +12,8 @@ import java.io.*;
 import java.net.*;
 import java.util.*;
 
-public class NameServer {
+public class NameServer
+{
     private static final int SERVERPORT = 2015;
     private static final String FILENAME = "NameDB.txt";
 
@@ -42,8 +43,53 @@ public class NameServer {
                         if (menu.equals("1")) //Add a name
                         {
                             System.out.println("Menu selection: " + menu);
-                            ThreadAddName addName = new ThreadAddName(sock);
-                            addName.start();
+
+                            //Create and fill array from file
+                            ArrayList<String> namesArrayAdd = new ArrayList<>();
+                            try
+                            {
+                                File namesRead = new File(FILENAME);
+                                BufferedReader br = new BufferedReader(new FileReader(namesRead));
+                                String line;
+                                line = br.readLine();
+                                namesArrayAdd.clear();
+
+                                while (line != null)
+                                {
+                                    namesArrayAdd.add(line);
+                                    line = br.readLine();
+                                }
+                                br.close();
+                            }
+                            catch (IOException e)
+                            {
+                                outStream.println("File read error");
+                            }
+
+                            //Add name to array
+                            String addName = inStream.readLine();
+                            namesArrayAdd.add(addName);
+
+                            //Rewrite file
+                            try
+                            {
+                                File namesWrite = new File(FILENAME);
+                                PrintWriter pw = new PrintWriter(new FileOutputStream(namesWrite));
+                                for (String line : namesArrayAdd)
+                                {
+                                    pw.println(line);
+                                }
+                                pw.close();
+                            }
+                            catch (IOException e)
+                            {
+                                outStream.println("File write error");
+                            }
+
+
+                            System.out.println("Name \"" + addName + "\" added successfully.");
+                            outStream.println("Name \"" + addName + "\" added successfully.");
+                            outStream.flush();
                         }
                         else if (menu.equals("2")) //Remove a name
                         {
@@ -207,78 +253,6 @@ public class NameServer {
         {
             System.out.println();
             System.out.println(e);
-        }
-    }
-
-    public static class ThreadAddName extends Thread
-    {
-        Socket sock;
-
-        public ThreadAddName(Socket s)
-        {
-            sock = s;
-        }
-
-        public void run()
-        {
-            try
-            {
-                PrintWriter addNameOut = new PrintWriter(sock.getOutputStream());
-                BufferedReader addNameIn = new BufferedReader(new InputStreamReader(sock.getInputStream()));
-
-                //Create and fill array from file
-                ArrayList<String> namesArrayAdd = new ArrayList<>();
-                try
-                {
-                    File namesRead = new File(FILENAME);
-                    BufferedReader br = new BufferedReader(new FileReader(namesRead));
-                    String line;
-                    line = br.readLine();
-                    namesArrayAdd.clear();
-
-                    while (line != null)
-                    {
-                        namesArrayAdd.add(line);
-                        line = br.readLine();
-                    }
-                    br.close();
-                }
-                catch (IOException e)
-                {
-                    addNameOut.println("File read error");
-                }
-
-                //Add name to array
-                System.out.println("Waiting for name");
-                String addName = addNameIn.readLine();
-                namesArrayAdd.add(addName);
-                System.out.println("Name " + addName + " received");
-                addNameOut.flush();
-
-                //Rewrite file
-                try
-                {
-                    File namesWrite = new File(FILENAME);
-                    PrintWriter pw = new PrintWriter(new FileOutputStream(namesWrite));
-                    for (String line : namesArrayAdd)
-                    {
-                        pw.println(line);
-                    }
-                    pw.close();
-                }
-                catch (IOException e)
-                {
-                    addNameOut.println("File write error");
-                }
-
-                System.out.println("Name \"" + addName + "\" added successfully.");
-                addNameOut.println("Name \"" + addName + "\" added successfully.");
-                addNameOut.flush();
-            }
-            catch (Exception e)
-            {
-                System.out.println("Error adding name");
-            }
         }
     }
 }
